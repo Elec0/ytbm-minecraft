@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "borntorule",
+      "uniqueId": "33dbcd94-ecfd-4116-b578-732e59307a40"
+    },
+    "time": 1615833265492,
+    "type": "Sampler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/#gHOp2JpQWY"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "borntorule",
+      "uniqueId": "33dbcd94-ecfd-4116-b578-732e59307a40"
+    },
+    "time": 1615832605081,
+    "type": "Sampler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/#fpialh6H9d"
+    }
+  }
+]

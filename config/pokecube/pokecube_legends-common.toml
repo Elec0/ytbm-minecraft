@@ -1,0 +1,36 @@
+
+[general]
+	enabledcondition = true
+	singleUseLegendSpawns = false
+	respawnLegendDelay = 36000
+	# If true, temples cannot be defiled by players.
+	protectTemples = true
+	generateOres = true
+
+[distortic]
+	mirrorCooldown = 800
+
+[mirage]
+	# Portals will reset randomly based on this value, higher values result in longer times between use. Default: 24000
+	ticksPerPortalReset = 24000
+	# the time you need to wait for Hoopa to generate a new portal
+	ticksPerPortalSpawn = 8400
+	# Minimum level for Hoopa to generate the portal. Min: 40. Max: 100. Numbers below the minimum will be reset to the default value: 50
+	levelCreatePortal = 50
+	# time for the portal to disappear in ticks. 1 Tick = 20 seconds
+	ticksPortalDespawn = 1200
+
+[meteors]
+	meteorPowerThreshold = 20.0
+	meteorChanceForAny = 0.01
+	meteorChanceForDust = 0.25
+
+[ultraspace]
+	enabledkeyusecombustible = true
+	itemCombustiveStack = 5
+
+[raids]
+	raidDuration = 3000
+	raidResetChance = 0.1
+	rareRaidChance = 0.1
+
