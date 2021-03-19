@@ -46,7 +46,7 @@
     B:CorruptedTomeEnabled=true
 
     # Whether or not Enigmatic Legacy should purposefully crash client whenever any mod tries to inject unnamed LootPool into any loot table. If false, stacktraces will be printed to log but game will proceed as normal. [default: true, synchronized: no]
-    B:CrashOnUnnamedPool=true
+    B:CrashOnUnnamedPool=false
 
     # Whether or not Crying Netherite Armor should be enabled. [default: true, synchronized: yes]
     B:CryingNetheriteArmorEnabled=true

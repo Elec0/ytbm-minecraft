@@ -62,7 +62,7 @@
 	# If true, anything that is an INPC will be made into a trainer
 	npcsAreTrainers = true
 	# If true, trainers can go in snag cubes
-	canSnagTrainers = false
+	canSnagTrainers = true
 	# Trainers will look for targets every this many ticks
 	trainerAgroRate = 20
 	# if true, trainers that are non agressive (ie on cooldown or bribed) will offer item trades

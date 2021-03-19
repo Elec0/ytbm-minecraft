@@ -61,13 +61,13 @@
 	# If spawnWhitelisted is enabled, pokemobs will only spawn in these dimensions
 	spawnDimWhitelist = []
 	# Legendary pokemobs will not naturally spawn below this level
-	minLegendLevel = 1
+	minLegendLevel = 50
 	# This is how often the code attempts to spawn pokemobs near a player
 	spawnRate = 2
 	# Enables using spawnDimWhitelist to determine if a dimension is valid for spawn
 	spawnWhitelisted = false
 	# Default radius of effect for repels, also applies to max spots
-	repelRadius = 16
+	repelRadius = 32
 	# These determine what lvl pokemobs spawn based on location. If central is true, then the origin for the function is 0,0, otherwise it is world spawn. if radial is true, then the function takes the variable r, which is horizontal distance from the origin. Otherwise it takes x and y, which are the horizontal coordinates with respect to the origin.
 	dimensionSpawnLevels = ["{\"dim\":\"the_nether\",\"func\":\"abs((25)*(sin(x*8*10^-3)^3 + sin(y*8*10^-3)^3))\",\"radial\":false,\"central\":false}", "{\"dim\":\"overworld\",\"func\":\"abs((25)*(sin(x*10^-3)^3 + sin(y*10^-3)^3))\",\"radial\":false,\"central\":false}", "{\"dim\":\"the_end\",\"func\":\"1+r/200\",\"radial\":true,\"central\":true}"]
 	# Wild mobs will be capped at this lvl for spawning
@@ -89,7 +89,7 @@
 	# If true, lakes will be removed from pokecube structure spawns, disable this if that interferes with other mod's worldgen!
 	lakeFeatureMixin = true
 	# If true, killing non-pokemobs will provide exp to pokemobs
-	nonPokemobExp = false
+	nonPokemobExp = true
 	pokecubeAutoSendOutDelay = 20
 	extraVars = ["jc:3.5", "rc:4.5", "eggDpl:2.0", "eggDpm:4.0"]
 	reputs = false
@@ -189,7 +189,7 @@
 	# This is how far away tame pokemobs will look for items to collect
 	tameGatherDistance = 16
 	# Mobs with these entity IDs will not be valid agression targets for pokemobs
-	aggroBlacklistIds = ["minecraft:villager", "minecraft:armor_stand", "pokecube_adventures:trainer", "pokecube_adventures:leader"]
+	aggroBlacklistIds = ["minecraft:villager", "minecraft:armor_stand", "pokecube_adventures:trainer", "pokecube_adventures:leader", "minecolonies:citizen"]
 	# Scales combat doding speed
 	dodgeSpeedFactor = 1.0
 	# If true, players can surf on valid pokemobs
@@ -247,7 +247,7 @@
 	# If true, wild pokemobs will try to gather items
 	wildGather = false
 	# Mobs with these entity tags will not be a valid agression targets for pokemobs
-	aggroBlacklistTags = []
+	aggroBlacklistTags = ["minecraft:villager", "minecraft:armor_stand", "pokecube_adventures:trainer", "pokecube_adventures:leader", "minecolonies:citizen"]
 	# Scaling factor on hunger from pokemob interactions, such as lighting torches, milking, etc
 	interactHungerScale = 1.0
 	# If true, pokemobs will need to execute an attack after breaking out of a cube before they can go into another to try to capture
@@ -307,19 +307,19 @@
 
 [misc]
 	# If true, mobs marked as "cloned" will drop items on death.
-	clonesDrop = false
+	clonesDrop = true
 	# A list of custom sounds to register
 	customSounds = []
 	# If false, the PC can hold any item
 	pcHoldsOnlyPokecubes = true
 	# If true, defeating a player's pokemobs gives exp
-	pvpExp = false
+	pvpExp = true
 	# If true, will automatically add interactions such as water from water types, and lighting torches on fire types.
 	defaultInteractions = true
 	# If true, the mob's favourite berry can be used to speed up breeding.
 	berryBreeding = true
 	# If true, your items which fit in PC will be sent there when you die
-	pcOnDrop = true
+	pcOnDrop = false
 	# A list of NBT tags to remove before saving the pokemob in its pokecube
 	persistent_tag_blacklist = []
 	# Scaling factor for EXP yield from fighting another player's pokemobs
@@ -327,13 +327,13 @@
 	# If true, defeating an NPC's pokemobs gives exp
 	trainerExp = true
 	# If true, legendary pokemobs can breed.
-	legendsBreed = false
+	legendsBreed = true
 	# Scales EXP yield from fighting non-player owned pokemobs
 	expScaleFactor = 1.0
 	# If true, using a bed will heal your pokemobs
 	bedsHeal = true
 	# Mob IDs which are blacklisted from going into snag cubes
-	snag_cube_blacklist = ["ender_dragon", "wither"]
+	snag_cube_blacklist = ["ender_dragon", "wither", "minecolonies:citizen"]
 	# If true, you will be prompted to choose a pokemob when creating a world, without having to look for a professor
 	guiOnLogin = true
 
