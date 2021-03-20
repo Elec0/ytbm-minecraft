@@ -94,7 +94,7 @@
     B:EnderRodEnabled=true
 
     # Whether or not Enigmatic Amulet should be enabled. [default: true, synchronized: yes]
-    B:EnigmaticAmuletEnabled=true
+    B:EnigmaticAmuletEnabled=false
 
     # Whether or not Essence of Raging Life should be enabled. [default: true, synchronized: yes]
     B:EssenceofRagingLifeEnabled=true
@@ -202,7 +202,7 @@
     B:RingofEnderEnabled=true
 
     # Whether or not Ring of the Seven Curses should be enabled. [default: true, synchronized: yes]
-    B:RingoftheSevenCursesEnabled=true
+    B:RingoftheSevenCursesEnabled=false
 
     # Whether or not Scroll of Ageless Wisdom should be enabled. [default: true, synchronized: yes]
     B:ScrollofAgelessWisdomEnabled=true
