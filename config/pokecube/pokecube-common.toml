@@ -275,7 +275,7 @@
 	# Wild pokemobs may agress the player if they get closer than this distance
 	mobAggroRadius = 3
 	# This is how often wild pokemobs make random sounds, higher numbers result in less noise
-	idleSoundRate = 100
+	idleSoundRate = 200
 	# How often pokemobs attempt to perform an idle action, such as walking, etc. Larger numbers are better for server performance, but result in less wandering of wild pokemobs
 	idleTickRate = 200
 	# This number multiplied by mobSpawnNumber is how many mobs can be in an area before pokemobs stop breeding, this is for wild pokemobs
