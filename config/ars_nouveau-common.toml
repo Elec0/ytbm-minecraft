@@ -7,7 +7,7 @@
 	#Spawn Arcane Ore in the world
 	genOre = true
 	#Spawn a book in the players inventory on login
-	spawnBook = true
+	spawnBook = false
 	#Spawn Mana Berry Bushes in the world
 	genBerries = true
 	#Rate of tree spawn per chunk
