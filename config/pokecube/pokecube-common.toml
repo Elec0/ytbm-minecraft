@@ -39,7 +39,7 @@
 	# Pokemobs will not spawn in the dimensions listed here
 	spawnDimBlacklist = ["compactmachines:compact_world"]
 	# similar to deactivateMonsters, but for vanilla animals
-	deactivateAnimals = true
+	deactivateAnimals = false
 	# This number, multiplied by mobDensityMultiplier will determine how many pokemobs will spawn within maxSpawnRadius of the player, this occurs at a rate based on spawnRate
 	mobSpawnNumber = 10
 	# similar to disableVanillaAnimals, but for vanilla animals
