@@ -247,7 +247,7 @@
 	# If true, wild pokemobs will try to gather items
 	wildGather = false
 	# Mobs with these entity tags will not be a valid agression targets for pokemobs
-	aggroBlacklistTags = ["minecraft:villager", "minecraft:armor_stand", "pokecube_adventures:trainer", "pokecube_adventures:leader", "minecolonies:citizen"]
+	aggroBlacklistTags = ["minecraft:villager", "minecraft:armor_stand", "pokecube_adventures:trainer", "pokecube_adventures:leader", "minecolonies:citizen", "minecolonies:visitor", "minecraft:beehive_inhabitors"]
 	# Scaling factor on hunger from pokemob interactions, such as lighting torches, milking, etc
 	interactHungerScale = 1.0
 	# If true, pokemobs will need to execute an attack after breaking out of a cube before they can go into another to try to capture
