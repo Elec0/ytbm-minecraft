@@ -22,6 +22,11 @@ craftingTable.addShaped("enigmaticlegacy:enigmatic_amulet", <item:enigmaticlegac
     [<item:minecraft:gold_ingot>, <item:minecraft:diamond>, <item:minecraft:gold_ingot>]
 ]);
 
+//Mapperbase Steel Removed
+blastFurnace.removeRecipe(<item:mapperbase:steel_ingot>);
+
+//Mapperbase Asphalt Swap Between Immersive Engineering and Mapperbase Asphalt
+
 //Waystone Configuration
 //craftingTable.removeRecipe(<item:waystones:warp_stone>);
 //craftingTable.addShaped("waystones:warp_stone", <item:waystones:warp_stone>, [

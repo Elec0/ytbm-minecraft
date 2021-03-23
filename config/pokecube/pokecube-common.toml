@@ -51,7 +51,7 @@
 	# if false, levelCap is ignored
 	shouldCap = true
 	# see mobSpawnNumber's description
-	mobDensityMultiplier = 1.0
+	mobDensityMultiplier = 0.5
 	# Pokemobs will not spawn in these biomes unless explicitly allowed to
 	softSpawnBiomeBlacklist = ["the_bumblezone:sugar_water_floor", "the_bumblezone:hive_wall", "the_bumblezone:hive_pillar"]
 	# if true, vanilla monsters will not spawn via normal spawning, this does not prevent mob spawners or special spawns
@@ -183,13 +183,13 @@
 	# Maximum distance a tame pokemob will try to move while idle wandering
 	idleMaxPathTame = 4
 	# Wild pokemobs will check for a player to attack every approximately this many ticks, large values decrease the chance of pokemob agression
-	mobAgroRate = 200
+	mobAgroRate = 100
 	# if true, hungry lithovores might eat gravel to nothing
 	pokemobsEatGravel = false
 	# This is how far away tame pokemobs will look for items to collect
 	tameGatherDistance = 16
 	# Mobs with these entity IDs will not be valid agression targets for pokemobs
-	aggroBlacklistIds = ["minecraft:villager", "minecraft:armor_stand", "pokecube_adventures:trainer", "pokecube_adventures:leader", "minecolonies:citizen"]
+	aggroBlacklistIds = ["minecraft:villager", "minecraft:armor_stand", "pokecube_adventures:trainer", "pokecube_adventures:leader", "minecolonies:citizen", "minecolonies:visitor"]
 	# Scales combat doding speed
 	dodgeSpeedFactor = 1.0
 	# If true, players can surf on valid pokemobs
@@ -255,7 +255,7 @@
 	# if true, pokemobs may despawn if more than cullDistance from a player
 	despawn = true
 	# Scaling factor on pokemob swim speed while pathing normally
-	swimPathingSpeedFactor = 1.25
+	swimPathingSpeedFactor = 1
 	# if true, player's in the same team can still battle each other
 	teamsBattleEachOther = true
 	# If true, pokemobs will slowly heal while out of combat
@@ -267,11 +267,11 @@
 	# if true, explosion type moves make large physical explosions
 	explosions = true
 	# Scaling factor on pokemob flight speed while pathing normally
-	flyPathingSpeedFactor = 1.25
+	flyPathingSpeedFactor = 1
 	# This number multiplied by mobSpawnNumber is how many mobs can be in an area before pokemobs stop breeding, this is for tame pokemobs
 	mateDensityPlayer = 4.0
 	# How often the hunger system ticks, larger numbers will result in faster hunger, setting to -1 will disable hunger entirely
-	hungerTickRate = 1
+	hungerTickRate = .5
 	# Wild pokemobs may agress the player if they get closer than this distance
 	mobAggroRadius = 3
 	# This is how often wild pokemobs make random sounds, higher numbers result in less noise
@@ -333,7 +333,7 @@
 	# If true, using a bed will heal your pokemobs
 	bedsHeal = true
 	# Mob IDs which are blacklisted from going into snag cubes
-	snag_cube_blacklist = ["ender_dragon", "wither", "minecolonies:citizen"]
+	snag_cube_blacklist = ["ender_dragon", "wither", "minecolonies:citizen", "minecolonies:visitor"]
 	# If true, you will be prompted to choose a pokemob when creating a world, without having to look for a professor
 	guiOnLogin = true
 
