@@ -1,0 +1,37 @@
+{
+  "inventory": {
+    "0:5": "{id:\"akashictome:tome\",Count:1b,tag:{\"akashictome:data\":{storagenetwork:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"storagenetwork:network_book\"}},psi:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"psi:encyclopaedia_psionica\"}},immersiveengineering:{id:\"immersiveengineering:manual\",Count:1b},engineersdecor:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"engineersdecor:engineersdecor_manual\"}},occultism:{id:\"occultism:dictionary_of_spirits\",Count:1b},solcarrot:{id:\"solcarrot:food_book\",Count:1b},productivebees:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"productivebees:guide\"}},botania:{id:\"botania:lexicon\",Count:1b,tag:{}},ars_nouveau:{id:\"ars_nouveau:worn_notebook\",Count:1b},bloodmagic:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"bloodmagic:guide\"}},rftoolsbase:{id:\"rftoolsbase:manual\",Count:1b},cyclic:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"cyclic:cyclic_guide_book\"}}}}}",
+    "0:2": "{id:\"minecraft:iron_sword\",Count:1b,tag:{Damage:0}}",
+    "0:10": "{id:\"pokecube:repel\",Count:8b}",
+    "0:22": "{id:\"minecraft:golden_hoe\",Count:1b,tag:{Damage:0}}",
+    "0:0": "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{Damage:0}}",
+    "0:9": "{id:\"pokecube:pokecube\",Count:16b}",
+    "1:0": "{id:\"minecraft:leather_boots\",Count:1b,tag:{AS_Amulet_Holder:[I;-1445330458,1563119506,-1156864579,-1925002586],Damage:2,display:{color:8606770}}}",
+    "1:2": "{id:\"minecraft:leather_chestplate\",Count:1b,tag:{AS_Amulet_Holder:[I;-1445330458,1563119506,-1156864579,-1925002586],Damage:2,display:{color:2895973}}}",
+    "0:4": "{id:\"minecraft:bread\",Count:16b}",
+    "1:3": "{id:\"minecraft:leather_helmet\",Count:1b,tag:{AS_Amulet_Holder:[I;-1445330458,1563119506,-1156864579,-1925002586],Damage:2,display:{color:11546150}}}",
+    "0:1": "{id:\"minecraft:stone_shovel\",Count:1b,tag:{Damage:0}}",
+    "0:3": "{id:\"minecraft:stone_axe\",Count:1b,tag:{Damage:0}}",
+    "1:1": "{id:\"minecraft:leather_leggings\",Count:1b,tag:{AS_Amulet_Holder:[I;-1445330458,1563119506,-1156864579,-1925002586],Damage:2,display:{color:8488086}}}",
+    "0:8": "{id:\"minecraft:torch\",Count:32b}"
+  },
+  "kits": {
+    "default": {
+      "0:2": "{id:\"minecraft:iron_sword\",Count:1b,tag:{Damage:0}}",
+      "0:3": "{id:\"minecraft:stone_axe\",Count:1b,tag:{Damage:0}}",
+      "0:0": "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{Damage:0}}",
+      "0:9": "{id:\"pokecube:pokecube\",Count:16b}",
+      "0:22": "{id:\"minecraft:golden_hoe\",Count:1b,tag:{Damage:0}}",
+      "1:3": "{id:\"minecraft:leather_helmet\",Count:1b,tag:{display:{color:11546150},AS_Amulet_Holder:[I;-1445330458,1563119506,-1156864579,-1925002586],Damage:2}}",
+      "0:4": "{id:\"minecraft:bread\",Count:16b}",
+      "1:0": "{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:8606770},AS_Amulet_Holder:[I;-1445330458,1563119506,-1156864579,-1925002586],Damage:2}}",
+      "0:8": "{id:\"minecraft:torch\",Count:32b}",
+      "0:10": "{id:\"pokecube:repel\",Count:8b}",
+      "0:5": "{id:\"akashictome:tome\",Count:1b,tag:{\"akashictome:data\":{storagenetwork:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"storagenetwork:network_book\"}},botania:{id:\"botania:lexicon\",Count:1b,tag:{}},ars_nouveau:{id:\"ars_nouveau:worn_notebook\",Count:1b},psi:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"psi:encyclopaedia_psionica\"}},immersiveengineering:{id:\"immersiveengineering:manual\",Count:1b},bloodmagic:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"bloodmagic:guide\"}},rftoolsbase:{id:\"rftoolsbase:manual\",Count:1b},engineersdecor:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"engineersdecor:engineersdecor_manual\"}},occultism:{id:\"occultism:dictionary_of_spirits\",Count:1b},solcarrot:{id:\"solcarrot:food_book\",Count:1b},cyclic:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"cyclic:cyclic_guide_book\"}},productivebees:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"productivebees:guide\"}}}}}",
+      "0:1": "{id:\"minecraft:stone_shovel\",Count:1b,tag:{Damage:0}}",
+      "1:2": "{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:2895973},AS_Amulet_Holder:[I;-1445330458,1563119506,-1156864579,-1925002586],Damage:2}}",
+      "1:1": "{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:8488086},AS_Amulet_Holder:[I;-1445330458,1563119506,-1156864579,-1925002586],Damage:2}}"
+    }
+  },
+  "wipeBlacklist": []
+}
