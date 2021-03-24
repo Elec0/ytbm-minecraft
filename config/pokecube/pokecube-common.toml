@@ -183,7 +183,7 @@
 	# Maximum distance a tame pokemob will try to move while idle wandering
 	idleMaxPathTame = 4
 	# Wild pokemobs will check for a player to attack every approximately this many ticks, large values decrease the chance of pokemob agression
-	mobAgroRate = 100
+	mobAgroRate = 200
 	# if true, hungry lithovores might eat gravel to nothing
 	pokemobsEatGravel = false
 	# This is how far away tame pokemobs will look for items to collect

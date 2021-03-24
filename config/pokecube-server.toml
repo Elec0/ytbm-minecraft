@@ -41,7 +41,7 @@
 	# If true, dead tame pokemobs will vanish like normal mobs do on death, they will return to their pokecubes when they vanish
 	tameDeadDespawn = true
 	# Approximate cooldown for attacks in ticks, larger values will slow down combat
-	attackCooldown = 20
+	attackCooldown = 60
 
 [misc]
 	# Global size scaling factor for pokemobs
