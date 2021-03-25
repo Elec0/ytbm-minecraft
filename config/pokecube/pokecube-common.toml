@@ -69,7 +69,8 @@
 	# Default radius of effect for repels, also applies to max spots
 	repelRadius = 32
 	# These determine what lvl pokemobs spawn based on location. If central is true, then the origin for the function is 0,0, otherwise it is world spawn. if radial is true, then the function takes the variable r, which is horizontal distance from the origin. Otherwise it takes x and y, which are the horizontal coordinates with respect to the origin.
-	dimensionSpawnLevels = ["{\"dim\":\"the_nether\",\"func\":\"abs((sqrt(x^2+y^2)/7.8)+(25)*(sin(abs(x)*8*10^-3)^3 + sin(abs(y)*8*10^-3)^3))\",\"radial\":false,\"central\":true}", "{\"dim\":\"overworld\",\"func\":\"abs((sqrt(x^2+y^2)/62)+(25)*(sin(abs(x)*10^-3)^3 + sin(abs(y)*10^-3)^3))\",\"radial\":false,\"central\":false}", "{\"dim\":\"the_end\",\"func\":\"1+r/200\",\"radial\":true,\"central\":true}"]
+	dimensionSpawnLevels = ["{\"dim\":\"the_nether\",\"func\":\" (abs(x)+abs(y)+(1/(abs(x)+abs(y)+1)))*8/115\",\"radial\":false,\"central\":true}", "{\"dim\":\"overworld\",\"func\":\" (abs(x)+abs(y)+(1/(abs(x)+abs(y)+1)))*1/115\",\"radial\":false,\"central\":false}", "{\"dim\":\"the_end\",\"func\":\"1+r/200\",\"radial\":true,\"central\":true}"]
+	
 	# Wild mobs will be capped at this lvl for spawning
 	levelCap = 80
 
