@@ -1,0 +1,10 @@
+
+[bag]
+	# if true, the bag can hold filled pokecubes
+	bagsHoldFilledCubes = true
+	# the number of pages the bag has
+	bagPages = 1
+	# If true, the bag can hold any item
+	bagsHoldEverything = true
+	
+
