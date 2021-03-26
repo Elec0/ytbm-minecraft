@@ -1,13 +1,3 @@
-//import crafttweaker.api.item.IItemStack;
-//import crafttweaker.api.util.text.MCTextComponent;
-
-//val block as IItemStack = <item:waystones:waystone>;
-//block.hardness = 50;
-//block.addToolTip("WARNING: When broken, does not drop itself, be careful when placing.");
-////MCTextComponent.createStringTextComponent("WARNING: When broken, does not drop itself, be careful when placing.");
-//print(block.asCollection());
-
-
 //Cursed Ring Recipe
 craftingTable.addShaped("enigmaticlegacy:cursed_ring", <item:enigmaticlegacy:cursed_ring>, [
     [<item:minecraft:diamond>, <item:minecraft:ender_eye>, <item:minecraft:diamond>],
@@ -26,21 +16,14 @@ craftingTable.addShaped("enigmaticlegacy:enigmatic_amulet", <item:enigmaticlegac
 blastFurnace.removeRecipe(<item:mapperbase:steel_ingot>);
 
 //Mapperbase Asphalt Swap Between Immersive Engineering and Mapperbase Asphalt
+craftingTable.addShapeless("immersivepetroleum:bitumen", <item:immersivepetroleum:bitumen>, [<item:mapperbase:raw_bitumen>]);
+craftingTable.addShapeless("mapperbase:raw_bitumen", <item:mapperbase:raw_bitumen>, [<item:immersivepetroleum:bitumen>]);
 
-//Waystone Configuration
-//craftingTable.removeRecipe(<item:waystones:warp_stone>);
-//craftingTable.addShaped("waystones:warp_stone", <item:waystones:warp_stone>, [
-//    [<item:minecraft:purple_dye>, <item:minecraft:ender_pearl>, <item:minecraft:purple_dye>],
-//   [<item:minecraft:ender_pearl>, <item:minecraft:nether_star>, <item:minecraft:ender_pearl>],
-//    [<item:minecraft:purple_dye>, <item:minecraft:ender_pearl>, <item:minecraft:purple_dye>]
-//]);
 
-//<block:waystones:waystone>.hardness = 50;
-//<block:waystones:mossy_waystone>.hardness = 50;
-//<block:waystones:sandy_waystone>.hardness = 50;
-//<block:waystones:waystone>.addTooltip("WARNING: When broken, does not drop itself, be careful when placing.");
-//<block:waystones:mossy_waystone>.addToolTip("WARNING: When broken, does not drop itself, be careful when placing.");
-//<block:waystones:sandy_waystone>.addToolTip("WARNING: When broken, does not drop itself, be careful when placing.");
-
-//Waystone Drops NOTHING
-//events.onBlockHarvestDrops(function(event as crafttweaker.event.BlockHarvestDropsEvent){ if(event.block.definition.id == "waystones:waystone"){ event.drops = []; } });
+//Quark Chests to Real Chests
+craftingTable.addShapeless("quark:oak_chest", <item:minecraft:chest>, [<item:quark:oak_chest>]);
+craftingTable.addShapeless("quark:spruce_chest", <item:minecraft:chest>, [<item:quark:spruce_chest>]);
+craftingTable.addShapeless("quark:birch_chest", <item:minecraft:chest>, [<item:quark:birch_chest>]);
+craftingTable.addShapeless("quark:jungle_chest", <item:minecraft:chest>, [<item:quark:jungle_chest>]);
+craftingTable.addShapeless("quark:acacia_chest", <item:minecraft:chest>, [<item:quark:acacia_chest>]);
+craftingTable.addShapeless("quark:dark_oak_chest", <item:minecraft:chest>, [<item:quark:dark_oak_chest>]);
