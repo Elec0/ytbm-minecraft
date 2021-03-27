@@ -1,25 +1,25 @@
 
 [spawncontrol]
 	#Enable Nickel Worldgen
-	nickel = false
+	nickel = true
 	#Enable Platinum Worldgen
-	platinum = false
+	platinum = true
 	#Enable Tin Worldgen
-	tin = false
+	tin = true
 	#Enable Copper Worldgen
-	copper = false
+	copper = true
 	#Enable Osmium Worldgen
 	osmium = false
 	#Enable Silver Worldgen
-	silver = false
+	silver = true
 	#Enable Aluminum Worldgen
-	aluminum = false
+	aluminum = true
 	#Enable Uranium Worldgen
-	uranium = false
+	uranium = true
 	#Enable Zinc Worldgen
-	zinc = false
+	zinc = true
 	#Enable Lead Worldgen
-	lead = false
+	lead = true
 
 [spawntuning]
 

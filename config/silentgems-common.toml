@@ -289,7 +289,7 @@
 				#Number of veins of silver ore per chunk. Set 0 to disable.
 				#Default: 0 if Silent's Mechanisms is installed when config is created, 2 otherwise
 				#Range: > 0
-				veinCount = 2
+				veinCount = 0
 
 			[world.generation.ores.ender]
 				#Number of ender ore veins per chunk in The End. Set zero to disable.
