@@ -15,7 +15,7 @@
 	# Time it takes for a pokemob to evolve, note that recalling during this time will cancel the evolution!
 	evolutionTicks = 50
 	# Number of ender pearls required to teleport to a pokecenter in your current dimension, using the attack teleport
-	telePearlsCostSameDim = 0
+	telePearlsCostSameDim = 4
 	# A spacing around a player which prevnts them from riding something too fast off the edge of the loaded area. This effectively limits the speed at which they can generate terrain
 	movementPauseThreshold = 32.0
 	# Number of ender pearls required to teleport to a pokecenter in a different diemsnion, using the attack teleport
