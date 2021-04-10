@@ -47,7 +47,7 @@
 	# Global size scaling factor for pokemobs
 	scalefactor = 1.0
 	# Number of pages in the PC
-	pcPageCount = 32
+	pcPageCount = 64
 	# If true, npcs will display their name tags, this is server config for syncing to clients for balance purposes
 	npcNameTags = true
 
