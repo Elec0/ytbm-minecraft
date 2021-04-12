@@ -120,7 +120,7 @@
 	Thatch = true
 	"Tie Leads To Fences" = true
 	Turf = true
-	"Variant Bookshelves" = false
+	"Variant Bookshelves" = true
 	"Variant Chests" = false
 	"Variant Ladders" = false
 	"Vertical Planks" = true
